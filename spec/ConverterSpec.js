@@ -1,4 +1,4 @@
-describe("Cooking Ingredients Converter", function() {
+describe("Temperature Converter", function() {
 
   describe("Temperatures", function() {
     it("Fahrenheit to Celsius", function() {
