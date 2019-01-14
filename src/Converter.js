@@ -22,4 +22,9 @@ function convertKilogramToPound(number) {
 function convertKilogramToStone(value) {
   stone = value/6.35;
   return stone.toFixed(3)
+};
+
+function convertStoneToKilogram(value) {
+  kilogram = value * 6.35;
+  return kilogram.toFixed(3)
 }

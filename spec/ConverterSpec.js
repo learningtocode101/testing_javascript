@@ -28,5 +28,10 @@ describe("Converter", function() {
       expect(result).toEqual('23.622');
     });
 
+    it("Stone to Kilogram", function(){
+      let result = convertStoneToKilogram(12);
+      expect(result).toEqual('76.200');
+    });
+
   });
 });
