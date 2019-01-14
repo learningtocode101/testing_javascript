@@ -15,8 +15,18 @@ describe("Converter", function() {
   describe("Mass", function(){
     it("Pound to Kilogram", function(){
       let result = convertPoundToKilogram(20);
-      expect(result).toEqual('9.07');
+      expect(result).toEqual('9.070');
     });
-  });
 
+    it("Kilogram to Pound", function(){
+      let result = convertKilogramToPound(10);
+      expect(result).toEqual('22.050');
+    });
+
+    it("Kilogram to Stone", function(){
+      let result = convertKilogramToStone(150);
+      expect(result).toEqual('23.622');
+    });
+
+  });
 });
