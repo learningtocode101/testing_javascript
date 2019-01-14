@@ -4,7 +4,7 @@ Project to explore testing Javascript using Jasmine framework
 # How to use
 ```
 git clone https://github.com/learningtocode101/testing_javascript.git
-open SpecRunner.html in browser
+open SpecRunner.html 
 ```
 
 # Acknowledgement
